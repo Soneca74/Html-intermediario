@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag semânticas</title>
+</head>
+<body>
+    <!--O header é geralmente ultilizado para fazer o cabeçalho da pagina, pode se ter mais de uma tag header -->
+    <header>
+        <h1>Estou dentro de um header </h1>
+        <!--Geralmente dentro de um Header vamos ver um h1-->
+        <nav>
+            <!-- Dentro de um nave geralmente tem um lista ul para criar um menu e axuiliar na navegação-->
+            <!-- Para facilitar a criação de lista pode usar ul>li* o numero de li que queremos que neste caso são 4-->
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/sobre">Sobre</a></li>
+                <li><a href="/portfolio">Portfólio</a>/li>
+                <li><a href="/contato">Contato</a></li>
+            </ul>
+            
+        </nav>
+        
+    </header>
+    <!--Na tag main vai ficar o conteudo principal do site e só pode aparecer uma vez na pagína -->
+    <main>
+        <!--A tag section vai representar sessões da pagina e podem ter cabeçalhos (header) na pagina que deixa até mais semantico -->
+       <section>
+          <h2>Módulo HTML intermediário</h2>
+          <img src="" alt="">
+          <!--O footer serve para fazer rodapé da pagina e não so da pagina mas também de uma section-->
+          <footer></footer>
+       </section>
+       <!-- A tag article é usada pra englobar tudo que faz sentido é mais usado em site de noticia onde engloba todo o texto. Por exemplo tenho texto explicando o javascript e outro explicando html vai ser uma tag article pra cada pois são assuntos diferentes -->
+       <article>
+        <!-- Um titulo-->
+        <h2>javascript</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perspiciatis nemo, tenetur minus incidunt adipisci labore voluptates! Tempora molestiae cupiditate rem! Eveniet, repellat repudiandae reprehenderit excepturi molestias vel omnis maxime!</p>
+       </article>
+       <!-- É considerada uma div de conteudos adicionais como sites externos, referencias etc para o leitor-->
+       <aside></aside>
+       <!--A tag figure serve para adicinar dentro dela uma imagem para uma questão semantica -->
+       <figure> 
+         <img src="logo-html.jg" alt="logo do html">
+         <!-- A tag ficcaption serve para fazer a legenda da imagem-->
+         <figcaption>Esse é o logo do Html</figcaption>
+       </figure>
+    </main>
+    <!--Na tag footer geralmente vamos colocar lista de contatos, telefone, politica de privaciade, termos, etc -->
+    <footer>
+        <!-- A tag Address serve para adicionar um endereço, telefone, e-mail, link de redes sociais etc -->
+        <address>
+            <a href="linkedin.com/eduardo-soares-padrao">Meu linkedin</a>
+        </address>
+    </footer>
+</body>
+</html>
